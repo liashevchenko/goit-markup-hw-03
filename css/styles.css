@@ -1,3 +1,4 @@
+/* Змінні */
 :root {
   --slate: #434455;
   --navyblue: #2e2f42;
@@ -7,12 +8,19 @@
   --ocean: #404bbf;
 }
 
+/* Базові */
 body {
   font-family: "Roboto", sans-serif;
   color: var(--slate);
-  line-height: 1.5;
   background: var(--white);
-  letter-spacing: 0.32px;
+}
+.link {
+  text-decoration: none;
+}
+.list {
+  list-style: none;
+  font-weight: 500;
+  color: var(--navyblue);
 }
 /* Header */
 
@@ -21,20 +29,12 @@ body {
   font-size: 18px;
   font-weight: 800;
   line-height: 1.17;
-  letter-spacing: 0.54px;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--iris);
 }
-.link {
-  text-decoration: none;
-}
 
 .logo-studio-header {
-  color: var(--navyblue);
-}
-.list {
-  list-style: none;
-  font-weight: 500;
   color: var(--navyblue);
 }
 
@@ -71,7 +71,7 @@ body {
   font-size: 56px;
   font-weight: 700;
   line-height: 1.07;
-  letter-spacing: 1.12px;
+  letter-spacing: 0.02em;
 }
 .hero-button {
   color: var(--white);

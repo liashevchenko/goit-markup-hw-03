@@ -57,6 +57,9 @@ ul {
 }
 
 /* Header */
+.border {
+  border-bottom: 1px solid var(--cornflower);
+}
 .flex-header {
   display: flex;
   align-items: center;
@@ -67,7 +70,6 @@ ul {
   display: flex;
   align-items: baseline;
   justify-content: space-between;
-  border-bottom: 1px solid var(--cornflower);
 }
 .logo {
   font-family: Raleway, sans-serif;

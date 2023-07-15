@@ -39,10 +39,10 @@ ul {
 }
 .container {
   max-width: 1158px;
-  padding-left: 0;
-  padding-right: 0;
-  margin-left: auto;
-  margin-right: auto;
+  padding-left: 0 15px;
+  padding-right: 0 15px;
+  margin-left: 0 auto;
+  margin-right: 0 auto;
 }
 .section {
   padding: ;
@@ -62,10 +62,11 @@ ul {
 
 /* Header */
 .flex-header {
-  display: inline-flex;
+  display: flex;
+  align-items: center;
   gap: 40px;
 }
-header {
+.header-container {
   padding: 24px 0 24px;
   display: flex;
   align-items: baseline;
@@ -80,6 +81,7 @@ header {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--iris);
+  margin-right: 76px;
 }
 
 .logo-studio-header {
@@ -93,6 +95,7 @@ header {
   letter-spacing: 0.02em;
   color: var(--navyblue);
   text-decoration: none;
+  padding: 24px 0;
 }
 .navigation:hover,
 .navigation:focus {

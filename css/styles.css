@@ -116,6 +116,7 @@ ul {
   background: var(--navyblue);
   text-align: center;
   padding: 188px 0;
+  margin-bottom: 120px;
 }
 .hero-header {
   color: var(--white);
@@ -145,6 +146,7 @@ ul {
 }
 
 /* Features */
+
 .features-flex {
   display: flex;
   gap: 24px;

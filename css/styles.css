@@ -40,7 +40,8 @@ ul {
 .container {
   max-width: 1158px;
   margin: 0 auto;
-  padding: 0 15px 0 15px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .visually-hidden {
@@ -291,7 +292,7 @@ ul {
   column-gap: 24px;
 }
 .projects-list-item {
-  flex-basis: calc((100%-48px) * 3);
+  width: calc((100% - 48px) / 3);
 }
 .projects-item-container {
   padding: 32px 16px;

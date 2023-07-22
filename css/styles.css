@@ -20,8 +20,6 @@ body {
 }
 .list {
   list-style: none;
-  font-weight: 500;
-  color: var(--navyblue);
 }
 img {
   display: block;
@@ -160,7 +158,6 @@ ul {
 .features-flex {
   display: flex;
   gap: 24px;
-
   justify-content: space-between;
 }
 .features-list-item {
@@ -188,6 +185,8 @@ ul {
 
 .text {
   color: var(--slate);
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 /* Occupation */
 .occupation-wrap {
